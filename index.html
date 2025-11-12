@@ -71,10 +71,49 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-test" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2025/11/12/test/" class="article-date">
+  <time class="dt-published" datetime="2025-11-12T08:09:30.000Z" itemprop="datePublished">2025-11-12</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2025/11/12/test/">test</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p><img src="/2025/11/12/test/1762934992935.png" alt="1762934992935"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2025/11/12/test/" data-id="cuid7jNqhZyjASKuAWGOTq8_0" data-title="test" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-EmmyLua" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2025/11/12/EmmyLua/" class="article-date">
-  <time class="dt-published" datetime="2025-11-12T07:26:19.075Z" itemprop="datePublished">2025-11-12</time>
+  <time class="dt-published" datetime="2025-11-12T07:33:15.755Z" itemprop="datePublished">2025-11-12</time>
 </a>
     
   </div>
@@ -83,8 +122,9 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="EmmyLua-断点"><a href="#EmmyLua-断点" class="headerlink" title="EmmyLua 断点"></a>EmmyLua 断点</h1><h1 id="1-简介"><a href="#1-简介" class="headerlink" title="1.简介"></a>1.简介</h1><p>Lua 断点调试是指在 Lua 脚本执行过程中，可以像调试 C#、Java 那样，设置断点、单步执行、查看变量、调用栈等。<br>常用的断点调试工具有EmmyLua，Decode等，本文主要介绍EmmyLua在不同编辑器场景的使用</p>
-<p>![1762911577906](D:\Typora\EmmyLua 断点.assets\1762911577906.png)</p>
+        <h1 id="EmmyLua-断点"><a href="#EmmyLua-断点" class="headerlink" title="EmmyLua 断点"></a>EmmyLua 断点</h1><h1 id="1-简介"><a href="#1-简介" class="headerlink" title="1.简介"></a>1.简介</h1><p><img src="/2025/11/12/EmmyLua/1762935485730.png" alt="1762935485730"></p>
+<p>Lua 断点调试是指在 Lua 脚本执行过程中，可以像调试 C#、Java 那样，设置断点、单步执行、查看变量、调用栈等。<br>常用的断点调试工具有EmmyLua，Decode等，本文主要介绍EmmyLua在不同编辑器场景的使用</p>
+<p><img src="/2025/11/12/EmmyLua/1762911577906.png" alt="1762911577906"></p>
 <p><strong>EmmyLua</strong></p>
 <ul>
 <li>支持VSCode，IntelliJ IDEA，Rider等常用编辑器</li>
@@ -97,10 +137,10 @@
 <p>访问 <a target="_blank" rel="noopener" href="https://marketplace.visualstudio.com/items?itemName=tangzx.emmylua">https://marketplace.visualstudio.com/items?itemName=tangzx.emmylua</a> 插件网页安装</p>
 <p><strong>离线安装</strong></p>
 <p>github上的Realease发布比较慢，因此推荐用上面的在线安装方式<br>访问 <a target="_blank" rel="noopener" href="https://github.com/EmmyLua/VSCode-EmmyLua/releases/tag/0.2.1">https://github.com/EmmyLua/VSCode-EmmyLua/releases</a> 下载 vsix 插件<br>VSCode-&gt;Extensions-&gt;…→Install from VSIX</p>
-<p>![1762911643892](D:\Typora\EmmyLua 断点.assets\1762911643892.png)</p>
+<p><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762911643892.png" alt="1762911643892"></p>
 <h2 id="2-2-调试器设置"><a href="#2-2-调试器设置" class="headerlink" title="2.2 调试器设置"></a>2.2 调试器设置</h2><p>安装完EmmyLua之后，左侧菜单栏会出现Run and Debug栏</p>
 <p>选中之后，默认没有配置文件，选择新增配置文件，搜索栏出现选项框，选择EmmyLua New Debugger</p>
-<p>![1762911655997](D:\Typora\EmmyLua 断点.assets\1762911655997.png)</p>
+<p><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762911655997.png" alt="1762911655997"></p>
 <p>修改对应配置，可以参考如下，这里加了三种配置</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">&quot;version&quot;</span>: <span class="string">&quot;0.2.0&quot;</span>,</span><br><span class="line">    <span class="string">&quot;configurations&quot;</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">&quot;type&quot;</span>: <span class="string">&quot;emmylua_new&quot;</span>,</span><br><span class="line">            <span class="string">&quot;request&quot;</span>: <span class="string">&quot;launch&quot;</span>,</span><br><span class="line">            <span class="string">&quot;name&quot;</span>: <span class="string">&quot;IDE Connect Debugger&quot;</span>,</span><br><span class="line">            <span class="string">&quot;host&quot;</span>: <span class="string">&quot;localhost&quot;</span>,</span><br><span class="line">            <span class="string">&quot;port&quot;</span>: 9966,</span><br><span class="line">            <span class="string">&quot;ext&quot;</span>: [</span><br><span class="line">                <span class="string">&quot;.lua&quot;</span>,</span><br><span class="line">            ],</span><br><span class="line">            <span class="string">&quot;ideConnectDebugger&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">&quot;type&quot;</span>: <span class="string">&quot;emmylua_new&quot;</span>,</span><br><span class="line">            <span class="string">&quot;request&quot;</span>: <span class="string">&quot;launch&quot;</span>,</span><br><span class="line">            <span class="string">&quot;name&quot;</span>: <span class="string">&quot;Debugger Connect IDE&quot;</span>,</span><br><span class="line">            <span class="string">&quot;host&quot;</span>: <span class="string">&quot;localhost&quot;</span>,</span><br><span class="line">            <span class="string">&quot;port&quot;</span>: 9966,</span><br><span class="line">            <span class="string">&quot;ext&quot;</span>: [</span><br><span class="line">                <span class="string">&quot;.lua&quot;</span>,</span><br><span class="line">            ],</span><br><span class="line">            <span class="string">&quot;ideConnectDebugger&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">&quot;type&quot;</span>: <span class="string">&quot;emmylua_attach&quot;</span>,</span><br><span class="line">            <span class="string">&quot;request&quot;</span>: <span class="string">&quot;attach&quot;</span>,</span><br><span class="line">            <span class="string">&quot;name&quot;</span>: <span class="string">&quot;Attach by process id&quot;</span>,</span><br><span class="line">            <span class="string">&quot;pid&quot;</span>: pid,</span><br><span class="line">            <span class="string">&quot;processName&quot;</span>: <span class="string">&quot;&quot;</span></span><br><span class="line">        &#125;,</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -121,9 +161,9 @@
 </tr>
 <tr>
 <td>调试器</td>
-<td align="left">下拉选择对应的调试器<br />![1762911901142](D:\Typora\EmmyLua 断点.assets\1762911901142.png)</td>
+<td align="left">下拉选择对应的调试器<br><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762911901142.png" alt="1762911901142"></td>
 <td></td>
-<td>通过任务管理器，修改pid配置<br />![1762911936414](D:\Typora\EmmyLua 断点.assets\1762911936414.png)</td>
+<td>通过任务管理器，修改pid配置<br><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762911936414.png" alt="1762911936414"></td>
 </tr>
 </tbody></table>
 <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- IDE Connect Debugger</span></span><br><span class="line"><span class="comment">-- 在main.lua 开始位置插入如下代码</span></span><br><span class="line"><span class="comment">-- dll 路径需要替换为自己安装路径</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">package</span>.<span class="built_in">cpath</span> = <span class="built_in">package</span>.<span class="built_in">cpath</span> .. <span class="string">&quot;;c:/Users/&#123;UserName&#125;/.vscode/extensions/tangzx.emmylua-0.9.31-win32-x64/debugger/emmy/windows/x64/?.dll&quot;</span></span><br><span class="line"><span class="keyword">local</span> dbg = <span class="built_in">require</span>(<span class="string">&quot;emmy_core&quot;</span>)</span><br><span class="line">dbg.tcpListen(<span class="string">&#x27;localhost&#x27;</span>, <span class="number">9966</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 可选的，勾选后会在此暂停，直至IDE连接</span></span><br><span class="line"><span class="comment">-- dbg.waitIDE()</span></span><br></pre></td></tr></table></figure>
@@ -134,22 +174,22 @@
 
 <h2 id="2-4-断点方式"><a href="#2-4-断点方式" class="headerlink" title="2.4 断点方式"></a>2.4 断点方式</h2><p>点击行号左侧（或者选中命令行 F9），右键Editor Breakpoint可以设置条件断点<br>代码中添加 dbg.breakHere() 增加断点</p>
 <h1 id="3-IDEA-使用"><a href="#3-IDEA-使用" class="headerlink" title="3.IDEA 使用"></a>3.IDEA 使用</h1><h2 id="3-1-安装"><a href="#3-1-安装" class="headerlink" title="3.1 安装"></a>3.1 安装</h2><p>IDEA-&gt;File-&gt;Setting</p>
-<p>![1762913415511](D:\Typora\EmmyLua 断点.assets\1762913415511.png)</p>
+<p><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762913415511.png" alt="1762913415511"></p>
 <p><strong>JetBrain市场直接安装</strong></p>
 <p>Settings-&gt;Plugins-&gt;搜索emmyLua，会显示当前ide所支持的版本</p>
 <p><strong>离线安装</strong></p>
 <p>前往<a target="_blank" rel="noopener" href="https://github.com/EmmyLua/IntelliJ-EmmyLua/releases">https://github.com/EmmyLua/IntelliJ-EmmyLua/releases</a>下载对应版本插件Settings-&gt;Plugins-&gt;中央小齿轮→Install Plugins from Disk<br>选中对应目录本地文件安装</p>
-<p>![1762913459548](D:\Typora\EmmyLua 断点.assets\1762913459548.png)</p>
+<p><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762913459548.png" alt="1762913459548"></p>
 <h2 id="3-2-调试配置"><a href="#3-2-调试配置" class="headerlink" title="3.2 调试配置"></a>3.2 调试配置</h2><p>Project中将对应路径设置为SourceRoot</p>
-<p>![1762913503489](D:\Typora\EmmyLua 断点.assets\1762913503489.png)</p>
+<p><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762913503489.png" alt="1762913503489"></p>
 <p>调试准备<br>Run-&gt;EditorConfigurations</p>
-<p>![1762913537072](D:\Typora\EmmyLua 断点.assets\1762913537072.png)</p>
+<p><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762913537072.png" alt="1762913537072"></p>
 <p>Idea安装默认左侧应该会有EmmyDebugger(New)的一个调试器<br>如果没有的话可以点击左上角的小加号</p>
-<p>![1762915599703](D:\Typora\EmmyLua 断点.assets\1762915599703.png)</p>
+<p><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762915599703.png" alt="1762915599703"></p>
 <h2 id="3-3-开始调试"><a href="#3-3-开始调试" class="headerlink" title="3.3 开始调试"></a>3.3 开始调试</h2><p>该方式通过注入的方式，有两种连接方式 Connection</p>
 <p>Attach的方式，在IDEA高版本中独立出来，作为单独一个插件EmmyLua Attach Debugger，已不再维护，IDEA 2023.3之后的版本无法正常安装（修改插件版本强制安装之后，IDEA不能适配所在行）</p>
 <p>最新的消息在官方q群里公布，得等 EmmyLua2和EmmyLua2 Attach Debugger 更新</p>
-<p>![1762913589960](D:\Typora\EmmyLua 断点.assets\1762913589960.png)</p>
+<p><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762913589960.png" alt="1762913589960"></p>
 <table>
 <thead>
 <tr>
@@ -165,8 +205,8 @@
 </tr>
 <tr>
 <td>调试器图示</td>
-<td>Run→EditorConfigurations<br />![1762913767588](D:\Typora\EmmyLua 断点.assets\1762913767588.png)</td>
-<td>Run→EditorConfigurations<br />![1762913778943](D:\Typora\EmmyLua 断点.assets\1762913778943.png)</td>
+<td>Run→EditorConfigurations<br><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762913767588.png" alt="1762913767588"></td>
+<td>Run→EditorConfigurations<br><img src="/2025/11/12/EmmyLua/EmmyLua%5C1762913778943.png" alt="1762913778943"></td>
 </tr>
 <tr>
 <td>UnityEditor</td>
@@ -186,7 +226,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/11/12/EmmyLua/" data-id="cuidCb8n-nLJ4ucNW9ZxFMO48" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/11/12/EmmyLua/" data-id="cuidvP9n2cq0bNNm1_ZQwCbQ_" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -227,6 +267,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2025/11/12/test/">test</a>
+          </li>
         
           <li>
             <a href="/2025/11/12/EmmyLua/">(no title)</a>
